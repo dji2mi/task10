@@ -1,0 +1,22 @@
+{
+  "name": "page-object-pattern-example-protractor-mocha",
+  "version": "1.0.0",
+  "description": "for task 10",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "webdriver-manager update --versions.standalone=3.4.0",
+    "test": "protractor ./test/config/protractor.config.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Anton Zimin",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.0",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
